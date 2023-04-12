@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>ОБЪЕКТ_7</name>
+      <description>11.01.2023 17:02:26</description>
+      <Style>
+        <LineStyle>
+          <color>FFFF00FF</color>
+          <width>3</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>00FFFFFF</color>
+          <fill>1</fill>
+        </PolyStyle>
+      </Style>
+      <Polygon>
+        <extrude>1</extrude>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>70.0016637417053,39.5016852785897,0 69.2466581750988,39.4985286640753,0 69.2463536831116,40.1686746600117,0 69.497050684573,40.1682802423625,0 69.4962926479553,40.3349263912054,0 71.0030781958711,40.3367699974097,0 71.0024752473462,39.6651598299245,0 70.2468218659986,39.6638331113055,0 70.2466088688111,39.9967891509555,0 69.7536760274802,39.9972031028892,0 69.7528122535975,39.8368976643226,0 70.0027512184413,39.8368976643226,0 70.0016637417053,39.5016852785897,0 </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
