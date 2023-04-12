@@ -1,0 +1,37 @@
+{
+  // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+  // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+  // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Main file",
+      "type": "python",
+      "request": "launch",
+      "program": "F:/Новая папка (2)/kml_image_search/main.py",
+      "args": [
+        "input_data/NewTurkestan1.kml", //ваш kml
+        "-f",
+        "2023-01-01", // дата начала поиска
+        "-t",
+        "2023-12-31",
+        "-r",
+        "0:45" // диапазон incidence angle
+        // "-o",,
+      
+        // "название получившегося файла"
+      ],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Area",
+      "type": "python",
+      "request": "launch",
+      "program": "/Users/user1/Desktop/kml_image_search/calculate_area.py",
+      "args": ["results/Quicklooks from 2020-01-01, to 2023-01-01.kml"],
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}
