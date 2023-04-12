@@ -8,9 +8,9 @@
       "name": "Main file",
       "type": "python",
       "request": "launch",
-      "program": "F:/Новая папка (2)/kml_image_search/main.py",
+      "program": "main.py",
       "args": [
-        "input_data/NewTurkestan1.kml", //ваш kml
+        "input_data/КОСМОСНИМКИ_7.kml", //ваш kml
         "-f",
         "2023-01-01", // дата начала поиска
         "-t",
